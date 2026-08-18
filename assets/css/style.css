@@ -2364,13 +2364,13 @@ body {
 
 
 .layanan-card-urgent {
-    background-color: #128c63;
-    color: #fff;
-    border-color: #128c63;
+    background-color: var(--pm-green);
+    color: #ffffff;
+    border-color: var(--pm-green);
 }
 
 .layanan-card-urgent .layanan-icon {
-    background-color: #128c63;
+    background-color: #3aa982;
     color: #ffffff;
 }
 
@@ -2380,19 +2380,19 @@ body {
 
 .layanan-card-urgent:hover .layanan-icon {
     background-color: #ffffff;
-    color: #128c63;
+    color: var(--pm-green);
 }
 
 .layanan-card-urgent:hover .layanan-icon i {
-    color: #128c63;
+    color: var(--pm-green);
 }
 
 .layanan-card-urgent .layanan-name,
 .layanan-card-urgent .layanan-desc {
-    color: #fff;
+    color: #ffffff;
 }
 
 .layanan-card-urgent .layanan-link {
-    color: #fff;
+    color: #ffffff;
     font-weight: 700;
 }
