@@ -2361,3 +2361,38 @@ body {
         animation-duration: 0.01ms !important;
     }
 }
+
+
+.layanan-card-urgent {
+    background-color: #128c63;
+    color: #fff;
+    border-color: #128c63;
+}
+
+.layanan-card-urgent .layanan-icon {
+    background-color: #128c63;
+    color: #ffffff;
+}
+
+.layanan-card-urgent .layanan-icon i {
+    color: #ffffff;
+}
+
+.layanan-card-urgent:hover .layanan-icon {
+    background-color: #ffffff;
+    color: #128c63;
+}
+
+.layanan-card-urgent:hover .layanan-icon i {
+    color: #128c63;
+}
+
+.layanan-card-urgent .layanan-name,
+.layanan-card-urgent .layanan-desc {
+    color: #fff;
+}
+
+.layanan-card-urgent .layanan-link {
+    color: #fff;
+    font-weight: 700;
+}

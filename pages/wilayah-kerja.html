@@ -393,21 +393,28 @@
 <!-- Navigasi profil versi mobile -->
 <select class="form-select profil-select d-lg-none" aria-label="Navigasi halaman profil"
         onchange="if (this.value) window.location.href = this.value;" data-testid="profil-select">
-            <option value="/pages/profil.php" >
-            Tentang Puskesmas        </option>
-            <option value="/pages/sejarah.php" >
-            Sejarah        </option>
-            <option value="/pages/visi-misi.php" >
-            Visi & Misi        </option>
-            <option value="/pages/maklumat-pelayanan.php" >
-            Maklumat Pelayanan        </option>
-            <option value="/pages/struktur-organisasi.php" >
-            Struktur Organisasi        </option>
-            <option value="/pages/wilayah-kerja.php" selected>
-            Wilayah Kerja        </option>
-            <option value="/pages/jejaring-pelayanan.php" >
-            Jejaring Pelayanan        </option>
-    </select>
+    <option value="profil.html">
+        Tentang Puskesmas
+    </option>
+    <option value="sejarah.html">
+        Sejarah
+    </option>
+    <option value="visi-misi.html">
+        Visi & Misi
+    </option>
+    <option value="maklumat-pelayanan.html">
+        Maklumat Pelayanan
+    </option>
+    <option value="struktur-organisasi.html">
+        Struktur Organisasi
+    </option>
+    <option value="wilayah-kerja.html" selected>
+        Wilayah Kerja
+    </option>
+    <option value="jejaring-pelayanan.html">
+        Jejaring Pelayanan
+    </option>
+</select>
             </div>
 
             <div class="col-lg-9">
@@ -430,7 +437,7 @@
                         <div class="info-mini" data-testid="wilayah-info-desa">
                             <span class="info-mini-icon"><i class="bi bi-houses"></i></span>
                             <span class="info-mini-label">Jumlah Desa/Kelurahan</span>
-                            <span class="info-mini-value">[Jumlah Desa/Kelurahan]</span>
+                            <span class="info-mini-value">11</span>
                         </div>
                     </div>
                     <div class="col-6">
@@ -444,11 +451,10 @@
 
                 <!-- Ganti placeholder peta dengan peta wilayah resmi jika tersedia -->
                 <div class="kontak-map" data-testid="wilayah-map">
-                    <div class="kontak-map-placeholder">
-                        <i class="bi bi-map"></i>
-                        <span>[ PETA WILAYAH KERJA ]</span>
-                    </div>
-                </div>
+    <img src="../assets/images/peta-kecamatan-jatigede-resmi.png"
+         alt="Peta Kecamatan Jatigede, Kabupaten Sumedang"
+         style="width: 100%; height: 100%; object-fit: contain; display: block;">
+</div>
             </div>
 
         </div>
