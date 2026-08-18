@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UPTD Puskesmas Rawat Inap Jatigede</title>
+    <meta name="description" content="Website resmi UPTD Puskesmas Rawat Inap Jatigede — informasi layanan kesehatan, jadwal pelayanan, dan pengaduan.">
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+    <!-- Bootstrap 5 (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons (CDN) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- CSS utama website -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="topbar d-none d-md-block" data-testid="topbar">
+    <div class="container d-flex justify-content-between align-items-center">
+        <span><i class="bi bi-clock"></i>Jam Pelayanan: Senin&ndash;Jumat 07.30&ndash;14.30</span>
+        <span><i class="bi bi-telephone"></i>Telp: [Nomor Telepon]</span>
+    </div>
+</div>
+    
+<nav class="navbar navbar-expand-lg navbar-main sticky-top" data-testid="navbar">
+    <div class="container">
+
+        <a class="navbar-brand d-flex align-items-center" href="index.html" data-testid="navbar-brand">
+            <!-- Placeholder logo: ganti elemen span di bawah dengan
+                 <img src="assets/images/logo.png" alt="Logo Puskesmas">
+                 setelah file logo resmi tersedia. -->
+            <span class="brand-logo"><i class="bi bi-heart-pulse-fill"></i></span>
+            <span class="brand-text">
+                <span class="brand-line-1">UPTD PUSKESMAS</span>
+                <span class="brand-line-2">RAWAT INAP JATIGEDE</span>
+            </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav" aria-label="Buka menu" data-testid="navbar-toggler">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <!-- Menu desktop -->
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                
+                                            <li class="nav-item">
+                            <a class="nav-link" href="index.html" data-testid="nav-home">Home</a>
+                        </li>
+                    
+                
+                                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-testid="nav-profil">
+                                Profil                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a class="dropdown-item" href="pages/profil.html">Tentang Puskesmas</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/sejarah.html">Sejarah</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/visi-misi.html">Visi & Misi</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/maklumat-pelayanan.html">Maklumat Pelayanan</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/struktur-organisasi.html">Struktur Organisasi</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/wilayah-kerja.html">Wilayah Kerja</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/jejaring-pelayanan.html">Jejaring Pelayanan</a></li>
+                                                            </ul>
+                        </li>
+
+                    
+                
+                                            <li class="nav-item dropdown dropdown-mega">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-testid="nav-pelayanan">
+                                Pelayanan                            </a>
+                            <div class="dropdown-menu">
+                                <div class="row g-4">
+                                                                            <div class="col-lg-4">
+                                            <h6 class="mega-title">Daftar Layanan</h6>
+                                                                                            <a class="dropdown-item" href="pages/layanan.html">Daftar Layanan</a>
+                                                                                            <a class="dropdown-item" href="pages/poli-umum.html">Poli Umum</a>
+                                                                                            <a class="dropdown-item" href="pages/poli-gigi.html">Poli Gigi</a>
+                                                                                            <a class="dropdown-item" href="pages/ugd.html">UGD</a>
+                                                                                            <a class="dropdown-item" href="pages/rawat-inap.html">Rawat Inap</a>
+                                                                                            <a class="dropdown-item" href="pages/poned.html">PONED</a>
+                                                                                            <a class="dropdown-item" href="pages/laboratorium.html">Laboratorium</a>
+                                                                                            <a class="dropdown-item" href="pages/farmasi.html">Farmasi</a>
+                                                                                            <a class="dropdown-item" href="pages/ambulans.html">Ambulans</a>
+                                                                                    </div>
+                                                                            <div class="col-lg-4">
+                                            <h6 class="mega-title">Pelayanan Berbasis Klaster</h6>
+                                                                                            <a class="dropdown-item" href="pages/klaster.html">Pelayanan Berbasis Klaster</a>
+                                                                                            <a class="dropdown-item" href="pages/klaster-1.html">Klaster 1</a>
+                                                                                            <a class="dropdown-item" href="pages/klaster-2.html">Klaster 2</a>
+                                                                                            <a class="dropdown-item" href="pages/klaster-3.html">Klaster 3</a>
+                                                                                            <a class="dropdown-item" href="pages/klaster-4.html">Klaster 4</a>
+                                                                                            <a class="dropdown-item" href="pages/lintas-klaster.html">Lintas Klaster</a>
+                                                                                    </div>
+                                                                            <div class="col-lg-4">
+                                            <h6 class="mega-title">Informasi Pelayanan</h6>
+                                                                                            <a class="dropdown-item" href="pages/jadwal.html">Jadwal Dokter & Tenaga Kesehatan</a>
+                                                                                            <a class="dropdown-item" href="pages/alur-pelayanan.html">Alur Pelayanan</a>
+                                                                                            <a class="dropdown-item" href="pages/persyaratan.html">Persyaratan Pelayanan</a>
+                                                                                            <a class="dropdown-item" href="pages/tarif.html">Tarif Layanan</a>
+                                                                                    </div>
+                                                                    </div>
+                            </div>
+                        </li>
+
+                    
+                
+                                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-testid="nav-informasi">
+                                Informasi                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a class="dropdown-item" href="pages/berita.html">Berita & Artikel</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/artikel.html">Artikel Kesehatan</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/pengumuman.html">Pengumuman</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/faq.html">FAQ</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/galeri.html">Galeri</a></li>
+                                                            </ul>
+                        </li>
+
+                    
+                
+                                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-testid="nav-pasien">
+                                Pasien                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a class="dropdown-item" href="pages/pendaftaran.html">Alur Pendaftaran</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/persyaratan.html">Persyaratan Pelayanan</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/jadwal.html">Jadwal Pelayanan</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/tarif.html">Tarif Layanan</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/pengaduan.html">Pengaduan</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/cek-pengaduan.html">Cek Pengaduan</a></li>
+                                                            </ul>
+                        </li>
+
+                    
+                
+                                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-testid="nav-publikasi-dokumen">
+                                Publikasi & Dokumen                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a class="dropdown-item" href="pages/publikasi.html">Publikasi & Dokumen</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/download.html">Download</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/informasi-publik.html">Informasi Publik</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/regulasi.html">Dokumen / Regulasi</a></li>
+                                                            </ul>
+                        </li>
+
+                    
+                
+                                            <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-testid="nav-kontak">
+                                Kontak                            </a>
+                            <ul class="dropdown-menu">
+                                                                    <li><a class="dropdown-item" href="pages/kontak.html">Kontak Puskesmas</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/lokasi.html">Lokasi & Maps</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/jam-pelayanan.html">Jam Pelayanan</a></li>
+                                                                    <li><a class="dropdown-item" href="pages/jejaring-kontak.html">Jejaring / Kontak Terkait</a></li>
+                                                            </ul>
+                        </li>
+
+                    
+                            </ul>
+
+            <div class="nav-cta">
+                <a href="pages/pengaduan.html" class="btn btn-pengaduan" data-testid="btn-pengaduan">
+                    <i class="bi bi-megaphone"></i> Pengaduan
+                </a>
+                <a href="pages/login.html" class="btn btn-login" data-testid="btn-login">
+                    <i class="bi bi-box-arrow-in-right"></i> Login
+                </a>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+<!-- Menu mobile (offcanvas) -->
+<div class="offcanvas offcanvas-start mobile-nav" tabindex="-1" id="mobileNav" aria-label="Menu navigasi" data-testid="mobile-nav">
+    <div class="offcanvas-header">
+        <a class="d-flex align-items-center text-decoration-none" href="index.html">
+            <span class="brand-logo"><i class="bi bi-heart-pulse-fill"></i></span>
+            <span class="brand-text">
+                <span class="brand-line-1">UPTD PUSKESMAS</span>
+                <span class="brand-line-2">RAWAT INAP JATIGEDE</span>
+            </span>
+        </a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Tutup menu" data-testid="mobile-nav-close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="mobile-menu">
+            
+                                    <li>
+                        <a class="mobile-link" href="index.html" data-testid="mobile-menu-home">Home</a>
+                    </li>
+                
+            
+                                    <li>
+                        <button class="mobile-link" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-sub-profil" aria-expanded="false" data-testid="mobile-menu-profil">
+                            Profil                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <ul class="collapse mobile-submenu" id="mobile-sub-profil">
+                                                                                                <li><a href="pages/profil.html">Tentang Puskesmas</a></li>
+                                                                    <li><a href="pages/sejarah.html">Sejarah</a></li>
+                                                                    <li><a href="pages/visi-misi.html">Visi & Misi</a></li>
+                                                                    <li><a href="pages/maklumat-pelayanan.html">Maklumat Pelayanan</a></li>
+                                                                    <li><a href="pages/struktur-organisasi.html">Struktur Organisasi</a></li>
+                                                                    <li><a href="pages/wilayah-kerja.html">Wilayah Kerja</a></li>
+                                                                    <li><a href="pages/jejaring-pelayanan.html">Jejaring Pelayanan</a></li>
+                                                                                    </ul>
+                    </li>
+
+                
+            
+                                    <li>
+                        <button class="mobile-link" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-sub-pelayanan" aria-expanded="false" data-testid="mobile-menu-pelayanan">
+                            Pelayanan                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <ul class="collapse mobile-submenu" id="mobile-sub-pelayanan">
+                                                                                                <li class="mobile-group-title">Daftar Layanan</li>
+                                                                            <li><a href="pages/layanan.html">Daftar Layanan</a></li>
+                                                                            <li><a href="pages/poli-umum.html">Poli Umum</a></li>
+                                                                            <li><a href="pages/poli-gigi.html">Poli Gigi</a></li>
+                                                                            <li><a href="pages/ugd.html">UGD</a></li>
+                                                                            <li><a href="pages/rawat-inap.html">Rawat Inap</a></li>
+                                                                            <li><a href="pages/poned.html">PONED</a></li>
+                                                                            <li><a href="pages/laboratorium.html">Laboratorium</a></li>
+                                                                            <li><a href="pages/farmasi.html">Farmasi</a></li>
+                                                                            <li><a href="pages/ambulans.html">Ambulans</a></li>
+                                                                                                        <li class="mobile-group-title">Pelayanan Berbasis Klaster</li>
+                                                                            <li><a href="pages/klaster.html">Pelayanan Berbasis Klaster</a></li>
+                                                                            <li><a href="pages/klaster-1.html">Klaster 1</a></li>
+                                                                            <li><a href="pages/klaster-2.html">Klaster 2</a></li>
+                                                                            <li><a href="pages/klaster-3.html">Klaster 3</a></li>
+                                                                            <li><a href="pages/klaster-4.html">Klaster 4</a></li>
+                                                                            <li><a href="pages/lintas-klaster.html">Lintas Klaster</a></li>
+                                                                                                        <li class="mobile-group-title">Informasi Pelayanan</li>
+                                                                            <li><a href="pages/jadwal.html">Jadwal Dokter & Tenaga Kesehatan</a></li>
+                                                                            <li><a href="pages/alur-pelayanan.html">Alur Pelayanan</a></li>
+                                                                            <li><a href="pages/persyaratan.html">Persyaratan Pelayanan</a></li>
+                                                                            <li><a href="pages/tarif.html">Tarif Layanan</a></li>
+                                                                                                                        </ul>
+                    </li>
+
+                
+            
+                                    <li>
+                        <button class="mobile-link" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-sub-informasi" aria-expanded="false" data-testid="mobile-menu-informasi">
+                            Informasi                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <ul class="collapse mobile-submenu" id="mobile-sub-informasi">
+                                                                                                <li><a href="pages/berita.html">Berita & Artikel</a></li>
+                                                                    <li><a href="pages/artikel.html">Artikel Kesehatan</a></li>
+                                                                    <li><a href="pages/pengumuman.html">Pengumuman</a></li>
+                                                                    <li><a href="pages/faq.html">FAQ</a></li>
+                                                                    <li><a href="pages/galeri.html">Galeri</a></li>
+                                                                                    </ul>
+                    </li>
+
+                
+            
+                                    <li>
+                        <button class="mobile-link" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-sub-pasien" aria-expanded="false" data-testid="mobile-menu-pasien">
+                            Pasien                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <ul class="collapse mobile-submenu" id="mobile-sub-pasien">
+                                                                                                <li><a href="pages/pendaftaran.html">Alur Pendaftaran</a></li>
+                                                                    <li><a href="pages/persyaratan.html">Persyaratan Pelayanan</a></li>
+                                                                    <li><a href="pages/jadwal.html">Jadwal Pelayanan</a></li>
+                                                                    <li><a href="pages/tarif.html">Tarif Layanan</a></li>
+                                                                    <li><a href="pages/pengaduan.html">Pengaduan</a></li>
+                                                                    <li><a href="pages/cek-pengaduan.html">Cek Pengaduan</a></li>
+                                                                                    </ul>
+                    </li>
+
+                
+            
+                                    <li>
+                        <button class="mobile-link" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-sub-publikasi-dokumen" aria-expanded="false" data-testid="mobile-menu-publikasi-dokumen">
+                            Publikasi & Dokumen                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <ul class="collapse mobile-submenu" id="mobile-sub-publikasi-dokumen">
+                                                                                                <li><a href="pages/publikasi.html">Publikasi & Dokumen</a></li>
+                                                                    <li><a href="pages/download.html">Download</a></li>
+                                                                    <li><a href="pages/informasi-publik.html">Informasi Publik</a></li>
+                                                                    <li><a href="pages/regulasi.html">Dokumen / Regulasi</a></li>
+                                                                                    </ul>
+                    </li>
+
+                
+            
+                                    <li>
+                        <button class="mobile-link" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-sub-kontak" aria-expanded="false" data-testid="mobile-menu-kontak">
+                            Kontak                            <i class="bi bi-chevron-down"></i>
+                        </button>
+                        <ul class="collapse mobile-submenu" id="mobile-sub-kontak">
+                                                                                                <li><a href="pages/kontak.html">Kontak Puskesmas</a></li>
+                                                                    <li><a href="pages/lokasi.html">Lokasi & Maps</a></li>
+                                                                    <li><a href="pages/jam-pelayanan.html">Jam Pelayanan</a></li>
+                                                                    <li><a href="pages/jejaring-kontak.html">Jejaring / Kontak Terkait</a></li>
+                                                                                    </ul>
+                    </li>
+
+                
+                    </ul>
+
+        <div class="mobile-cta">
+            <a href="pages/pengaduan.html" class="btn btn-pengaduan" data-testid="mobile-btn-pengaduan">
+                <i class="bi bi-megaphone"></i> Pengaduan
+            </a>
+            <a href="pages/login.html" class="btn btn-login" data-testid="mobile-btn-login">
+                <i class="bi bi-box-arrow-in-right"></i> Login
+            </a>
+        </div>
+    </div>
+</div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" data-testid="hero-section">
+            <div class="container">
+                <div class="row align-items-center g-5">
+
+                    <div class="col-lg-6">
+                        <span class="hero-badge"><i class="bi bi-hospital"></i>Puskesmas Rawat Inap &middot; Kec. Jatigede</span>
+                        <p class="hero-welcome">Selamat Datang di</p>
+                        <h1 class="hero-title" data-testid="hero-title">UPTD Puskesmas<br>Rawat Inap Jatigede</h1>
+                        <p class="hero-subtitle">Memberikan pelayanan kesehatan yang mudah, cepat, aman, dan berkualitas bagi masyarakat.</p>
+                        <div class="hero-cta">
+                            <a href="pages/layanan.html" class="btn btn-hero-primary" data-testid="hero-cta-layanan">
+                                Lihat Layanan <i class="bi bi-arrow-right"></i>
+                            </a>
+                            <a href="pages/jadwal.html" class="btn btn-hero-secondary" data-testid="hero-cta-jadwal">
+                                <i class="bi bi-calendar3"></i> Jadwal Pelayanan
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="hero-visual" data-testid="hero-visual">
+                            <!-- Placeholder visual. Ganti dengan foto asli ketika tersedia, contoh:
+                            <img src="assets/images/hero/hero-puskesmas.jpg"
+                                 alt="UPTD Puskesmas Rawat Inap Jatigede" class="hero-image">
+                            -->
+                            <div class="hero-placeholder">
+                                <i class="bi bi-hospital"></i>
+                                <span>Foto UPTD Puskesmas<br>Rawat Inap Jatigede</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Layanan -->
+                <section class="layanan-section" data-testid="layanan-section">
+            <div class="container">
+
+                <div class="section-head">
+                    <span class="section-label">Layanan Kami</span>
+                    <h2 class="section-title" data-testid="layanan-title">Pelayanan Kesehatan untuk Masyarakat</h2>
+                    <p class="section-desc">Berbagai layanan kesehatan tersedia untuk memenuhi kebutuhan masyarakat di wilayah kerja UPTD Puskesmas Rawat Inap Jatigede.</p>
+                </div>
+
+                <div class="row g-4">
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="layanan-card h-100" data-testid="layanan-card-poli-umum">
+                                <span class="layanan-icon"><i class="bi bi-clipboard2-pulse"></i></span>
+                                <h3 class="layanan-name">Poli Umum</h3>
+                                <p class="layanan-desc">Pemeriksaan kesehatan umum bagi masyarakat.</p>
+                                <a class="layanan-link" href="pages/poli-umum.html">
+                                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="layanan-card h-100" data-testid="layanan-card-poli-gigi">
+                                <span class="layanan-icon"><i class="bi bi-emoji-smile"></i></span>
+                                <h3 class="layanan-name">Poli Gigi</h3>
+                                <p class="layanan-desc">Perawatan kesehatan gigi dan mulut.</p>
+                                <a class="layanan-link" href="pages/poli-gigi.html">
+                                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="layanan-card h-100" data-testid="layanan-card-ugd">
+                                <span class="layanan-icon"><i class="bi bi-bandaid"></i></span>
+                                <h3 class="layanan-name">UGD</h3>
+                                <p class="layanan-desc">Pelayanan gawat darurat 24 jam.</p>
+                                <a class="layanan-link" href="pages/ugd.html">
+                                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="layanan-card h-100" data-testid="layanan-card-rawat-inap">
+                                <span class="layanan-icon"><i class="bi bi-hospital"></i></span>
+                                <h3 class="layanan-name">Rawat Inap</h3>
+                                <p class="layanan-desc">Perawatan pasien dengan fasilitas rawat inap.</p>
+                                <a class="layanan-link" href="pages/rawat-inap.html">
+                                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="layanan-card h-100" data-testid="layanan-card-poned">
+                                <span class="layanan-icon"><i class="bi bi-balloon-heart"></i></span>
+                                <h3 class="layanan-name">PONED</h3>
+                                <p class="layanan-desc">Pelayanan obstetri neonatal emergensi dasar.</p>
+                                <a class="layanan-link" href="pages/poned.html">
+                                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="layanan-card h-100" data-testid="layanan-card-laboratorium">
+                                <span class="layanan-icon"><i class="bi bi-eyedropper"></i></span>
+                                <h3 class="layanan-name">Laboratorium</h3>
+                                <p class="layanan-desc">Pemeriksaan penunjang medis laboratorium.</p>
+                                <a class="layanan-link" href="pages/laboratorium.html">
+                                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="layanan-card h-100" data-testid="layanan-card-farmasi">
+                                <span class="layanan-icon"><i class="bi bi-capsule"></i></span>
+                                <h3 class="layanan-name">Farmasi</h3>
+                                <p class="layanan-desc">Layanan obat-obatan dan informasi penggunaannya.</p>
+                                <a class="layanan-link" href="pages/farmasi.html">
+                                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="layanan-card h-100" data-testid="layanan-card-ambulans">
+                                <span class="layanan-icon"><i class="bi bi-truck-front"></i></span>
+                                <h3 class="layanan-name">Ambulans</h3>
+                                <p class="layanan-desc">Layanan transportasi rujukan pasien.</p>
+                                <a class="layanan-link" href="pages/ambulans.html">
+                                    Lihat Detail <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                    </div>
+
+                <div class="layanan-cta">
+                    <a href="pages/layanan.html" class="btn btn-hero-primary" data-testid="layanan-cta-all">
+                        Lihat Semua Layanan <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section Jadwal Pelayanan -->
+                <section class="jadwal-section" data-testid="jadwal-section">
+            <div class="container">
+
+                <div class="section-head">
+                    <span class="section-label">Jadwal Pelayanan</span>
+                    <h2 class="section-title" data-testid="jadwal-title">Jam Pelayanan Puskesmas</h2>
+                    <p class="section-desc">Informasi jam pelayanan untuk membantu Anda merencanakan kunjungan ke Puskesmas.</p>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+
+                    <div class="col-lg-6">
+                        <div class="jadwal-card h-100" data-testid="jadwal-card">
+                            <div class="jadwal-card-head">
+                                <span class="jadwal-icon"><i class="bi bi-clock"></i></span>
+                                <h3 class="jadwal-card-title">Jam Pelayanan</h3>
+                            </div>
+                            <ul class="jadwal-list">
+                                                                    <li class="jadwal-row">
+                                        <span class="jadwal-day">Senin</span>
+                                                                                    <span class="jadwal-time">07.30 – 14.30</span>
+                                                                            </li>
+                                                                    <li class="jadwal-row">
+                                        <span class="jadwal-day">Selasa</span>
+                                                                                    <span class="jadwal-time">07.30 – 14.30</span>
+                                                                            </li>
+                                                                    <li class="jadwal-row">
+                                        <span class="jadwal-day">Rabu</span>
+                                                                                    <span class="jadwal-time">07.30 – 14.30</span>
+                                                                            </li>
+                                                                    <li class="jadwal-row">
+                                        <span class="jadwal-day">Kamis</span>
+                                                                                    <span class="jadwal-time">07.30 – 14.30</span>
+                                                                            </li>
+                                                                    <li class="jadwal-row">
+                                        <span class="jadwal-day">Jumat</span>
+                                                                                    <span class="jadwal-time">07.30 – 14.30</span>
+                                                                            </li>
+                                                                    <li class="jadwal-row">
+                                        <span class="jadwal-day">Sabtu</span>
+                                                                                    <span class="jadwal-time">[Jam Pelayanan]</span>
+                                                                            </li>
+                                                                    <li class="jadwal-row">
+                                        <span class="jadwal-day">Minggu</span>
+                                                                                    <span class="jadwal-closed">Tutup</span>
+                                                                            </li>
+                                                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="jadwal-card jadwal-dokter-card h-100" data-testid="jadwal-dokter-card">
+                            <span class="jadwal-icon"><i class="bi bi-calendar2-week"></i></span>
+                            <h3 class="jadwal-card-title">Jadwal Dokter &amp; Tenaga Kesehatan</h3>
+                            <p class="jadwal-dokter-desc">Lihat jadwal dokter dan tenaga kesehatan yang tersedia di Puskesmas.</p>
+                            <a href="pages/jadwal.html" class="btn btn-hero-secondary" data-testid="jadwal-cta-dokter">
+                                Lihat Jadwal Dokter <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="jadwal-cta">
+                    <a href="pages/jadwal.html" class="btn btn-hero-primary" data-testid="jadwal-cta-all">
+                        Lihat Jadwal Lengkap <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section Alur Pelayanan -->
+                <section class="alur-section" data-testid="alur-section">
+            <div class="container">
+
+                <div class="section-head">
+                    <span class="section-label">Alur Pelayanan</span>
+                    <h2 class="section-title" data-testid="alur-title">Bagaimana Cara Mendapatkan Pelayanan?</h2>
+                    <p class="section-desc">Ikuti langkah berikut untuk mendapatkan pelayanan kesehatan di UPTD Puskesmas Rawat Inap Jatigede.</p>
+                </div>
+
+                <ol class="alur-steps">
+                                            <li class="alur-step" data-testid="alur-step-1">
+                            <span class="alur-icon"><i class="bi bi-pencil-square"></i></span>
+                            <div class="alur-body">
+                                <span class="alur-num">01</span>
+                                <h3 class="alur-name">Pendaftaran</h3>
+                                <p class="alur-desc">Pasien melakukan pendaftaran sesuai ketentuan yang berlaku.</p>
+                            </div>
+                        </li>
+                                            <li class="alur-step" data-testid="alur-step-2">
+                            <span class="alur-icon"><i class="bi bi-clipboard2-pulse"></i></span>
+                            <div class="alur-body">
+                                <span class="alur-num">02</span>
+                                <h3 class="alur-name">Pemeriksaan Awal</h3>
+                                <p class="alur-desc">Pasien mendapatkan pemeriksaan awal atau pengkajian sesuai kebutuhan.</p>
+                            </div>
+                        </li>
+                                            <li class="alur-step" data-testid="alur-step-3">
+                            <span class="alur-icon"><i class="bi bi-heart-pulse"></i></span>
+                            <div class="alur-body">
+                                <span class="alur-num">03</span>
+                                <h3 class="alur-name">Pelayanan Kesehatan</h3>
+                                <p class="alur-desc">Pasien mendapatkan pelayanan dari tenaga kesehatan sesuai jenis layanan.</p>
+                            </div>
+                        </li>
+                                            <li class="alur-step" data-testid="alur-step-4">
+                            <span class="alur-icon"><i class="bi bi-eyedropper"></i></span>
+                            <div class="alur-body">
+                                <span class="alur-num">04</span>
+                                <h3 class="alur-name">Tindakan / Pemeriksaan Penunjang</h3>
+                                <p class="alur-desc">Jika diperlukan, pasien dapat menjalani tindakan atau pemeriksaan penunjang seperti laboratorium.</p>
+                            </div>
+                        </li>
+                                            <li class="alur-step" data-testid="alur-step-5">
+                            <span class="alur-icon"><i class="bi bi-capsule"></i></span>
+                            <div class="alur-body">
+                                <span class="alur-num">05</span>
+                                <h3 class="alur-name">Selesai / Farmasi</h3>
+                                <p class="alur-desc">Pasien mendapatkan obat atau instruksi lanjutan sesuai kebutuhan pelayanan.</p>
+                            </div>
+                        </li>
+                                    </ol>
+
+                <div class="alur-note" data-testid="alur-note">
+                    <i class="bi bi-info-circle"></i>
+                    <span>Persiapkan dokumen dan persyaratan pelayanan sebelum datang ke Puskesmas.</span>
+                </div>
+
+                <div class="alur-cta">
+                    <a href="pages/alur-pelayanan.html" class="btn btn-hero-primary" data-testid="alur-cta-detail">
+                        Lihat Alur Pelayanan Lengkap <i class="bi bi-arrow-right"></i>
+                    </a>
+                    <a href="pages/persyaratan.html" class="btn btn-hero-secondary" data-testid="alur-cta-syarat">
+                        <i class="bi bi-file-earmark-text"></i> Persyaratan Pelayanan
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section Berita & Pengumuman -->
+                <section class="berita-section" data-testid="berita-section">
+            <div class="container">
+
+                <div class="section-head">
+                    <span class="section-label">Informasi Terkini</span>
+                    <h2 class="section-title" data-testid="berita-title">Berita &amp; Artikel</h2>
+                    <p class="section-desc">Dapatkan informasi terbaru seputar kegiatan, pelayanan, dan edukasi kesehatan dari UPTD Puskesmas Rawat Inap Jatigede.</p>
+                </div>
+
+                <div class="row g-4">
+                                            <div class="col-md-6 col-lg-4">
+                            <article class="berita-card h-100" data-testid="berita-card-1">
+                                <!-- Placeholder gambar. Ganti dengan foto asli ketika tersedia, contoh:
+                                <img src="assets/images/berita/berita-1.jpg"
+                                     alt="Kegiatan Pelayanan Kesehatan di UPTD Puskesmas Rawat Inap Jatigede" class="berita-thumb" loading="lazy">
+                                -->
+                                <div class="berita-thumb-placeholder" role="img" aria-label="Kegiatan Pelayanan Kesehatan di UPTD Puskesmas Rawat Inap Jatigede">
+                                    <i class="bi bi-newspaper"></i>
+                                </div>
+                                <div class="berita-body">
+                                    <div class="berita-meta">
+                                        <span class="berita-kategori">Kegiatan</span>
+                                        <span class="berita-tanggal"><i class="bi bi-calendar3"></i>[Tanggal]</span>
+                                    </div>
+                                    <h3 class="berita-judul">Kegiatan Pelayanan Kesehatan di UPTD Puskesmas Rawat Inap Jatigede</h3>
+                                    <p class="berita-ringkasan">Informasi mengenai kegiatan pelayanan kesehatan di Puskesmas.</p>
+                                    <a class="berita-link" href="pages/berita.html">
+                                        Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                                            <div class="col-md-6 col-lg-4">
+                            <article class="berita-card h-100" data-testid="berita-card-2">
+                                <!-- Placeholder gambar. Ganti dengan foto asli ketika tersedia, contoh:
+                                <img src="assets/images/berita/berita-2.jpg"
+                                     alt="Informasi Pelayanan Kesehatan bagi Masyarakat" class="berita-thumb" loading="lazy">
+                                -->
+                                <div class="berita-thumb-placeholder" role="img" aria-label="Informasi Pelayanan Kesehatan bagi Masyarakat">
+                                    <i class="bi bi-newspaper"></i>
+                                </div>
+                                <div class="berita-body">
+                                    <div class="berita-meta">
+                                        <span class="berita-kategori">Informasi</span>
+                                        <span class="berita-tanggal"><i class="bi bi-calendar3"></i>[Tanggal]</span>
+                                    </div>
+                                    <h3 class="berita-judul">Informasi Pelayanan Kesehatan bagi Masyarakat</h3>
+                                    <p class="berita-ringkasan">Informasi terbaru mengenai pelayanan kesehatan yang tersedia.</p>
+                                    <a class="berita-link" href="pages/berita.html">
+                                        Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                                            <div class="col-md-6 col-lg-4">
+                            <article class="berita-card h-100" data-testid="berita-card-3">
+                                <!-- Placeholder gambar. Ganti dengan foto asli ketika tersedia, contoh:
+                                <img src="assets/images/berita/berita-3.jpg"
+                                     alt="Edukasi Kesehatan untuk Masyarakat" class="berita-thumb" loading="lazy">
+                                -->
+                                <div class="berita-thumb-placeholder" role="img" aria-label="Edukasi Kesehatan untuk Masyarakat">
+                                    <i class="bi bi-newspaper"></i>
+                                </div>
+                                <div class="berita-body">
+                                    <div class="berita-meta">
+                                        <span class="berita-kategori">Edukasi</span>
+                                        <span class="berita-tanggal"><i class="bi bi-calendar3"></i>[Tanggal]</span>
+                                    </div>
+                                    <h3 class="berita-judul">Edukasi Kesehatan untuk Masyarakat</h3>
+                                    <p class="berita-ringkasan">Informasi dan edukasi kesehatan yang bermanfaat bagi masyarakat.</p>
+                                    <a class="berita-link" href="pages/berita.html">
+                                        Baca Selengkapnya <i class="bi bi-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                                    </div>
+
+                <div class="berita-cta">
+                    <a href="pages/berita.html" class="btn btn-hero-primary" data-testid="berita-cta-all">
+                        Lihat Semua Berita <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Pengumuman -->
+                <div class="pengumuman-block" data-testid="pengumuman-block">
+                    <div class="pengumuman-head">
+                        <span class="section-label">Pengumuman</span>
+                        <h2 class="section-title" data-testid="pengumuman-title">Pengumuman Terbaru</h2>
+                    </div>
+
+                    <ul class="pengumuman-list">
+                                                    <li class="pengumuman-item" data-testid="pengumuman-item-1">
+                                <span class="pengumuman-icon"><i class="bi bi-megaphone"></i></span>
+                                <div class="pengumuman-body">
+                                    <div class="pengumuman-meta">
+                                        <h3 class="pengumuman-judul">Pengumuman Pelayanan</h3>
+                                        <span class="pengumuman-tanggal"><i class="bi bi-calendar3"></i>[Tanggal]</span>
+                                    </div>
+                                    <p class="pengumuman-isi">Informasi terbaru mengenai pelayanan Puskesmas.</p>
+                                </div>
+                                <a class="pengumuman-link" href="pages/pengumuman.html" aria-label="Baca Pengumuman Pelayanan">
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </li>
+                                                    <li class="pengumuman-item" data-testid="pengumuman-item-2">
+                                <span class="pengumuman-icon"><i class="bi bi-megaphone"></i></span>
+                                <div class="pengumuman-body">
+                                    <div class="pengumuman-meta">
+                                        <h3 class="pengumuman-judul">Pengumuman Jadwal</h3>
+                                        <span class="pengumuman-tanggal"><i class="bi bi-calendar3"></i>[Tanggal]</span>
+                                    </div>
+                                    <p class="pengumuman-isi">Informasi perubahan atau penyesuaian jadwal pelayanan.</p>
+                                </div>
+                                <a class="pengumuman-link" href="pages/pengumuman.html" aria-label="Baca Pengumuman Jadwal">
+                                    <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </li>
+                                            </ul>
+
+                    <a class="pengumuman-cta" href="pages/pengumuman.html" data-testid="pengumuman-cta-all">
+                        Lihat Semua Pengumuman <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section FAQ -->
+                <section class="faq-section" data-testid="faq-section">
+            <div class="container">
+
+                <div class="section-head">
+                    <span class="section-label">Pertanyaan Umum</span>
+                    <h2 class="section-title" data-testid="faq-title">Pertanyaan yang Sering Ditanyakan</h2>
+                    <p class="section-desc">Temukan jawaban atas pertanyaan umum mengenai pelayanan di UPTD Puskesmas Rawat Inap Jatigede.</p>
+                </div>
+
+                <div class="accordion faq-accordion" id="faqAccordion">
+                                            <div class="accordion-item" data-testid="faq-item-1">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-1" aria-expanded="false" aria-controls="faq-1">
+                                    Apa saja layanan yang tersedia di Puskesmas?                                </button>
+                            </h3>
+                            <div id="faq-1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Informasi mengenai layanan yang tersedia dapat dilihat pada <a href="pages/layanan.html">halaman Daftar Layanan</a>.</div>
+                            </div>
+                        </div>
+                                            <div class="accordion-item" data-testid="faq-item-2">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-2" aria-expanded="false" aria-controls="faq-2">
+                                    Apa saja persyaratan untuk mendapatkan pelayanan?                                </button>
+                            </h3>
+                            <div id="faq-2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Persyaratan pelayanan dapat berbeda sesuai jenis layanan. Silakan lihat <a href="pages/persyaratan.html">halaman Persyaratan Pelayanan</a> untuk informasi lebih lengkap.</div>
+                            </div>
+                        </div>
+                                            <div class="accordion-item" data-testid="faq-item-3">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-3" aria-expanded="false" aria-controls="faq-3">
+                                    Kapan jam pelayanan Puskesmas?                                </button>
+                            </h3>
+                            <div id="faq-3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Jam pelayanan dapat dilihat pada <a href="pages/jadwal.html">halaman Jadwal Pelayanan</a>.</div>
+                            </div>
+                        </div>
+                                            <div class="accordion-item" data-testid="faq-item-4">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-4" aria-expanded="false" aria-controls="faq-4">
+                                    Bagaimana cara menyampaikan pengaduan?                                </button>
+                            </h3>
+                            <div id="faq-4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Masyarakat dapat menyampaikan pengaduan melalui <a href="pages/pengaduan.html">halaman Pengaduan</a>.</div>
+                            </div>
+                        </div>
+                                            <div class="accordion-item" data-testid="faq-item-5">
+                            <h3 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-5" aria-expanded="false" aria-controls="faq-5">
+                                    Di mana lokasi UPTD Puskesmas Rawat Inap Jatigede?                                </button>
+                            </h3>
+                            <div id="faq-5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">Informasi lokasi dan peta dapat dilihat pada <a href="pages/kontak.html">halaman Kontak</a>.</div>
+                            </div>
+                        </div>
+                                    </div>
+
+                <div class="faq-cta">
+                    <a href="pages/faq.html" class="btn btn-hero-secondary" data-testid="faq-cta-all">
+                        Lihat Semua FAQ <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section Galeri -->
+                <section class="galeri-section" data-testid="galeri-section">
+            <div class="container">
+
+                <div class="section-head">
+                    <span class="section-label">Galeri</span>
+                    <h2 class="section-title" data-testid="galeri-title">Kegiatan &amp; Aktivitas Puskesmas</h2>
+                    <p class="section-desc">Dokumentasi kegiatan dan aktivitas UPTD Puskesmas Rawat Inap Jatigede.</p>
+                </div>
+
+                <div class="row g-3">
+                                            <div class="col-6 col-md-4">
+                            <button type="button" class="galeri-item" data-bs-toggle="modal" data-bs-target="#galeriModal" data-caption="Dokumentasi Kegiatan 1" data-testid="galeri-item-1">
+                                <!-- Placeholder gambar. Ganti dengan foto asli ketika tersedia, contoh:
+                                <img src="assets/images/galeri/galeri-1.jpg"
+                                     alt="Dokumentasi Kegiatan 1" class="galeri-img" loading="lazy">
+                                -->
+                                <span class="galeri-placeholder" role="img" aria-label="Dokumentasi Kegiatan 1">
+                                    <i class="bi bi-image"></i>
+                                    <span class="galeri-caption">Dokumentasi Kegiatan 1</span>
+                                </span>
+                            </button>
+                        </div>
+                                            <div class="col-6 col-md-4">
+                            <button type="button" class="galeri-item" data-bs-toggle="modal" data-bs-target="#galeriModal" data-caption="Dokumentasi Kegiatan 2" data-testid="galeri-item-2">
+                                <!-- Placeholder gambar. Ganti dengan foto asli ketika tersedia, contoh:
+                                <img src="assets/images/galeri/galeri-2.jpg"
+                                     alt="Dokumentasi Kegiatan 2" class="galeri-img" loading="lazy">
+                                -->
+                                <span class="galeri-placeholder" role="img" aria-label="Dokumentasi Kegiatan 2">
+                                    <i class="bi bi-image"></i>
+                                    <span class="galeri-caption">Dokumentasi Kegiatan 2</span>
+                                </span>
+                            </button>
+                        </div>
+                                            <div class="col-6 col-md-4">
+                            <button type="button" class="galeri-item" data-bs-toggle="modal" data-bs-target="#galeriModal" data-caption="Dokumentasi Kegiatan 3" data-testid="galeri-item-3">
+                                <!-- Placeholder gambar. Ganti dengan foto asli ketika tersedia, contoh:
+                                <img src="assets/images/galeri/galeri-3.jpg"
+                                     alt="Dokumentasi Kegiatan 3" class="galeri-img" loading="lazy">
+                                -->
+                                <span class="galeri-placeholder" role="img" aria-label="Dokumentasi Kegiatan 3">
+                                    <i class="bi bi-image"></i>
+                                    <span class="galeri-caption">Dokumentasi Kegiatan 3</span>
+                                </span>
+                            </button>
+                        </div>
+                                            <div class="col-6 col-md-4">
+                            <button type="button" class="galeri-item" data-bs-toggle="modal" data-bs-target="#galeriModal" data-caption="Dokumentasi Kegiatan 4" data-testid="galeri-item-4">
+                                <!-- Placeholder gambar. Ganti dengan foto asli ketika tersedia, contoh:
+                                <img src="assets/images/galeri/galeri-4.jpg"
+                                     alt="Dokumentasi Kegiatan 4" class="galeri-img" loading="lazy">
+                                -->
+                                <span class="galeri-placeholder" role="img" aria-label="Dokumentasi Kegiatan 4">
+                                    <i class="bi bi-image"></i>
+                                    <span class="galeri-caption">Dokumentasi Kegiatan 4</span>
+                                </span>
+                            </button>
+                        </div>
+                                            <div class="col-6 col-md-4">
+                            <button type="button" class="galeri-item" data-bs-toggle="modal" data-bs-target="#galeriModal" data-caption="Dokumentasi Kegiatan 5" data-testid="galeri-item-5">
+                                <!-- Placeholder gambar. Ganti dengan foto asli ketika tersedia, contoh:
+                                <img src="assets/images/galeri/galeri-5.jpg"
+                                     alt="Dokumentasi Kegiatan 5" class="galeri-img" loading="lazy">
+                                -->
+                                <span class="galeri-placeholder" role="img" aria-label="Dokumentasi Kegiatan 5">
+                                    <i class="bi bi-image"></i>
+                                    <span class="galeri-caption">Dokumentasi Kegiatan 5</span>
+                                </span>
+                            </button>
+                        </div>
+                                            <div class="col-6 col-md-4">
+                            <button type="button" class="galeri-item" data-bs-toggle="modal" data-bs-target="#galeriModal" data-caption="Dokumentasi Kegiatan 6" data-testid="galeri-item-6">
+                                <!-- Placeholder gambar. Ganti dengan foto asli ketika tersedia, contoh:
+                                <img src="assets/images/galeri/galeri-6.jpg"
+                                     alt="Dokumentasi Kegiatan 6" class="galeri-img" loading="lazy">
+                                -->
+                                <span class="galeri-placeholder" role="img" aria-label="Dokumentasi Kegiatan 6">
+                                    <i class="bi bi-image"></i>
+                                    <span class="galeri-caption">Dokumentasi Kegiatan 6</span>
+                                </span>
+                            </button>
+                        </div>
+                                    </div>
+
+                <div class="galeri-cta">
+                    <a href="pages/galeri.html" class="btn btn-hero-primary" data-testid="galeri-cta-all">
+                        Lihat Semua Galeri <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section Pasien & Pengaduan -->
+                <section class="pasien-section" data-testid="pasien-section">
+            <div class="container">
+
+                <div class="section-head">
+                    <span class="section-label">Layanan untuk Pasien</span>
+                    <h2 class="section-title" data-testid="pasien-title">Informasi yang Anda Butuhkan</h2>
+                    <p class="section-desc">Temukan informasi penting sebelum mendapatkan pelayanan di UPTD Puskesmas Rawat Inap Jatigede.</p>
+                </div>
+
+                <div class="row g-4">
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="quick-card h-100" data-testid="quick-card-1">
+                                <span class="quick-icon"><i class="bi bi-clipboard2-check"></i></span>
+                                <h3 class="quick-name">Alur Pendaftaran</h3>
+                                <p class="quick-desc">Ketahui langkah-langkah pendaftaran sebelum mendapatkan pelayanan.</p>
+                                <a class="quick-link" href="pages/pendaftaran.html">
+                                    Lihat Informasi <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="quick-card h-100" data-testid="quick-card-2">
+                                <span class="quick-icon"><i class="bi bi-file-earmark-text"></i></span>
+                                <h3 class="quick-name">Persyaratan Pelayanan</h3>
+                                <p class="quick-desc">Lihat dokumen dan persyaratan yang perlu dipersiapkan.</p>
+                                <a class="quick-link" href="pages/persyaratan.html">
+                                    Lihat Informasi <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="quick-card h-100" data-testid="quick-card-3">
+                                <span class="quick-icon"><i class="bi bi-calendar3"></i></span>
+                                <h3 class="quick-name">Jadwal Pelayanan</h3>
+                                <p class="quick-desc">Lihat informasi jadwal dan jam pelayanan Puskesmas.</p>
+                                <a class="quick-link" href="pages/jadwal.html">
+                                    Lihat Informasi <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                            <div class="col-md-6 col-lg-3">
+                            <div class="quick-card h-100" data-testid="quick-card-4">
+                                <span class="quick-icon"><i class="bi bi-cash-stack"></i></span>
+                                <h3 class="quick-name">Tarif Layanan</h3>
+                                <p class="quick-desc">Lihat informasi tarif layanan yang tersedia.</p>
+                                <a class="quick-link" href="pages/tarif.html">
+                                    Lihat Informasi <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                                    </div>
+
+                <!-- Panel Pengaduan -->
+                <div class="pengaduan-panel" data-testid="pengaduan-panel">
+                    <div class="pengaduan-text">
+                        <span class="pengaduan-icon"><i class="bi bi-chat-square-heart"></i></span>
+                        <h3 class="pengaduan-title" data-testid="pengaduan-title">Ada Pertanyaan, Keluhan, atau Masukan?</h3>
+                        <p class="pengaduan-desc">Kami terbuka terhadap masukan masyarakat untuk meningkatkan kualitas pelayanan. Sampaikan pengaduan atau masukan Anda kepada UPTD Puskesmas Rawat Inap Jatigede.</p>
+                    </div>
+                    <div class="pengaduan-actions">
+                        <a href="pages/pengaduan.html" class="btn btn-pengaduan" data-testid="pengaduan-cta-kirim">
+                            <i class="bi bi-megaphone"></i> Sampaikan Pengaduan
+                        </a>
+                        <a href="pages/cek-pengaduan.html" class="btn btn-pengaduan-outline" data-testid="pengaduan-cta-cek">
+                            <i class="bi bi-search"></i> Cek Status Pengaduan
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section Kontak & Lokasi -->
+                <section class="kontak-section" data-testid="kontak-section">
+            <div class="container">
+
+                <div class="section-head">
+                    <span class="section-label">Hubungi Kami</span>
+                    <h2 class="section-title" data-testid="kontak-title">Temukan dan Hubungi Kami</h2>
+                    <p class="section-desc">Kami siap memberikan informasi mengenai pelayanan UPTD Puskesmas Rawat Inap Jatigede.</p>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-lg-5">
+                        <div class="kontak-card h-100">
+                            <ul class="kontak-list">
+                                                                    <li class="kontak-item">
+                                        <span class="kontak-icon"><i class="bi bi-geo-alt"></i></span>
+                                        <div>
+                                            <span class="kontak-label">Alamat</span>
+                                            <span class="kontak-value">[Alamat Lengkap Puskesmas]</span>
+                                        </div>
+                                    </li>
+                                                                    <li class="kontak-item">
+                                        <span class="kontak-icon"><i class="bi bi-telephone"></i></span>
+                                        <div>
+                                            <span class="kontak-label">Telepon</span>
+                                            <span class="kontak-value">[Nomor Telepon]</span>
+                                        </div>
+                                    </li>
+                                                                    <li class="kontak-item">
+                                        <span class="kontak-icon"><i class="bi bi-envelope"></i></span>
+                                        <div>
+                                            <span class="kontak-label">Email</span>
+                                            <span class="kontak-value">[Email Puskesmas]</span>
+                                        </div>
+                                    </li>
+                                                                    <li class="kontak-item">
+                                        <span class="kontak-icon"><i class="bi bi-clock"></i></span>
+                                        <div>
+                                            <span class="kontak-label">Jam Pelayanan</span>
+                                            <span class="kontak-value">Senin–Jumat, 07.30–14.30</span>
+                                        </div>
+                                    </li>
+                                                            </ul>
+
+                            <div class="kontak-actions">
+                                <!-- Ganti href="#" dengan URL Google Maps resmi lokasi Puskesmas -->
+                                <a href="#" class="btn btn-hero-primary" data-testid="kontak-cta-maps">
+                                    <i class="bi bi-geo-alt"></i> Lihat Lokasi di Google Maps
+                                </a>
+                                <!-- Ganti href="#" dengan tel:[Nomor Telepon] resmi Puskesmas -->
+                                <a href="#" class="btn btn-hero-secondary" data-testid="kontak-cta-telp">
+                                    <i class="bi bi-telephone"></i> Hubungi Kami
+                                </a>
+                            </div>
+
+                            <div class="jejaring">
+                                <h3 class="jejaring-title">Jejaring &amp; Kontak Terkait</h3>
+                                <ul class="jejaring-list">
+                                                                            <li><i class="bi bi-building"></i>[Kontak Jejaring 1]</li>
+                                                                            <li><i class="bi bi-building"></i>[Kontak Jejaring 2]</li>
+                                                                            <li><i class="bi bi-building"></i>[Kontak Jejaring 3]</li>
+                                                                    </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="kontak-map" data-testid="kontak-map">
+                            <!-- Ganti placeholder ini dengan Google Maps resmi lokasi Puskesmas, contoh:
+                            <iframe src="URL_EMBED_GOOGLE_MAPS_RESMI" allowfullscreen loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    title="Lokasi UPTD Puskesmas Rawat Inap Jatigede"></iframe>
+                            -->
+                            <div class="kontak-map-placeholder">
+                                <i class="bi bi-map"></i>
+                                <span>[ GOOGLE MAPS EMBED ]</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Modal lightbox galeri -->
+        <div class="modal fade" id="galeriModal" tabindex="-1" aria-labelledby="galeriModalLabel" aria-hidden="true" data-testid="galeri-modal">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content galeri-modal">
+                    <div class="modal-header">
+                        <h3 class="modal-title fs-6" id="galeriModalLabel">Dokumentasi Kegiatan</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Tutup"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="galeri-modal-placeholder">
+                            <i class="bi bi-image"></i>
+                            <span id="galeriModalCaption">Dokumentasi Kegiatan</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+<footer class="footer" data-testid="footer">
+    <div class="container">
+
+        <div class="row g-4 footer-main">
+
+            <div class="col-lg-4">
+                <a class="d-inline-flex align-items-center text-decoration-none" href="index.html">
+                    <span class="brand-logo"><i class="bi bi-heart-pulse-fill"></i></span>
+                    <span class="brand-text">
+                        <span class="brand-line-1">UPTD PUSKESMAS</span>
+                        <span class="brand-line-2">RAWAT INAP JATIGEDE</span>
+                    </span>
+                </a>
+                <p class="footer-desc">Memberikan pelayanan kesehatan bagi masyarakat dengan mengutamakan mutu, keselamatan, dan kemudahan akses pelayanan.</p>
+                <div class="footer-social">
+                    <span class="footer-social-label">Ikuti Kami</span>
+                    <div class="footer-social-links">
+                                                    <a href="#" aria-label="Facebook" data-testid="footer-social-facebook">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                                                    <a href="#" aria-label="Instagram" data-testid="footer-social-instagram">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                                                    <a href="#" aria-label="YouTube" data-testid="footer-social-youtube">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                                                    <a href="#" aria-label="WhatsApp" data-testid="footer-social-whatsapp">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                                            </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-2">
+                <h3 class="footer-title">Navigasi</h3>
+                <ul class="footer-links">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="pages/profil.html">Profil</a></li>
+                                            <li><a href="pages/layanan.html">Pelayanan</a></li>
+                                            <li><a href="pages/berita.html">Informasi</a></li>
+                                            <li><a href="pages/pendaftaran.html">Pasien</a></li>
+                                            <li><a href="pages/publikasi.html">Publikasi & Dokumen</a></li>
+                                            <li><a href="pages/kontak.html">Kontak</a></li>
+                                    </ul>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg-3">
+                <h3 class="footer-title">Pelayanan</h3>
+                <ul class="footer-links footer-links-2col">
+                                            <li><a href="pages/poli-umum.html">Poli Umum</a></li>
+                                            <li><a href="pages/poli-gigi.html">Poli Gigi</a></li>
+                                            <li><a href="pages/ugd.html">UGD</a></li>
+                                            <li><a href="pages/rawat-inap.html">Rawat Inap</a></li>
+                                            <li><a href="pages/poned.html">PONED</a></li>
+                                            <li><a href="pages/laboratorium.html">Laboratorium</a></li>
+                                            <li><a href="pages/farmasi.html">Farmasi</a></li>
+                                            <li><a href="pages/ambulans.html">Ambulans</a></li>
+                                    </ul>
+            </div>
+
+            <div class="col-md-4 col-lg-3">
+                <h3 class="footer-title">Kontak Kami</h3>
+                <ul class="footer-contact">
+                    <li><i class="bi bi-geo-alt"></i><span>[Alamat Puskesmas]</span></li>
+                    <li><i class="bi bi-telephone"></i><span>[Nomor Telepon]</span></li>
+                    <li><i class="bi bi-envelope"></i><span>[Email Puskesmas]</span></li>
+                    <li><i class="bi bi-clock"></i><span>Senin&ndash;Jumat, 07.30&ndash;14.30</span></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span data-testid="footer-copyright">&copy; 2026 UPTD Puskesmas Rawat Inap Jatigede. Hak Cipta Dilindungi.</span>
+            <span class="footer-legal">
+                <!-- Placeholder: arahkan ke halaman resmi ketika tersedia -->
+                <a href="#" data-testid="footer-link-privasi">Kebijakan Privasi</a>
+                <a href="#" data-testid="footer-link-ketentuan">Ketentuan Penggunaan</a>
+            </span>
+        </div>
+
+    </div>
+</footer>
+
+    <!-- Bootstrap Bundle JS (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JavaScript utama website -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
