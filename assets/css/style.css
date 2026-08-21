@@ -2396,3 +2396,9 @@ body {
     color: #ffffff;
     font-weight: 700;
 }
+
+.logo-puskesmas {
+    height: 50px;
+    width: auto;
+    display: block;
+}
